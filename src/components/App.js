@@ -7,6 +7,7 @@ const App = () => {
 
   React.useEffect(()=>{
   setData({ temperature: 25, conditions: "Sunny" })
+    
 },[])
   return (
     <div>
